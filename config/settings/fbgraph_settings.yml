@@ -1,0 +1,11 @@
+defaults: &defaults
+  client_id: 5839c7e76515fb80fe6ebb83da3ed325
+  secret_id: 6fe11b42cf5ff5166efff99c31d8146a
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
